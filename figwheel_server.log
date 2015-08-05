@@ -1,0 +1,377 @@
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.149 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.124 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.118 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...
+[31mCompiling "main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\hello_seymore\core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4403)
+    cljs.compiler$compile_file$fn__3100.invoke (compiler.clj:1142)
+    cljs.compiler$compile_file.invoke (compiler.clj:1105)
+    cljs.compiler$compile_root.invoke (compiler.clj:1177)
+    cljs.closure$compile_dir.invoke (closure.clj:378)
+    cljs.closure$eval3516$fn__3517.invoke (closure.clj:418)
+    cljs.closure$eval3452$fn__3453$G__3443__3460.invoke (closure.clj:325)
+    cljs.closure$eval3503$fn__3504.invoke (closure.clj:432)
+    cljs.closure$eval3452$fn__3453$G__3443__3460.invoke (closure.clj:325)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+    clojure.core$map$fn__4245.invoke (core.clj:2557)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:484)
+    clojure.core$seq.invoke (core.clj:133)
+    clojure.core$apply.invoke (core.clj:624)
+    clojure.core$mapcat.doInvoke (core.clj:2586)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1446)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:153)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17509.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__17542.invoke (auto_builder.clj:179)
+    figwheel_sidecar.auto_builder$warning$fn__17506.invoke (auto_builder.clj:73)
+    clojurescript_build.auto$time_build$fn__17302.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17308.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17308.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17308.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17311.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17305.invoke (auto.clj:60)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.966 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 1.047 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.173 seconds.[0m
+notifying browser that file changed:  \hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.138 seconds.[0m
+notifying browser that file changed:  \hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.168 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.124 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.129 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+[0mCompiling "main.js" from ["src"]...
+[31mCompiling "main.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: No such namespace: js, compiling:(\hello_seymore\components.clj:5:3)
+ at clojure.lang.Compiler.analyze (Compiler.java:6464)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3665)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6646)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6632)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5782)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5217)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3846)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6642)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6632)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.access$100 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:538)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6644)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler.eval (Compiler.java:6707)
+    clojure.lang.Compiler.load (Compiler.java:7130)
+    clojure.lang.RT.loadResourceScript (RT.java:370)
+    clojure.lang.RT.loadResourceScript (RT.java:361)
+    clojure.lang.RT.load (RT.java:440)
+    clojure.lang.RT.load (RT.java:411)
+    clojure.core$load$fn__5066.invoke (core.clj:5641)
+    clojure.core$load.doInvoke (core.clj:5640)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojurescript_build.core$reload_lib.invoke (core.clj:40)
+[0mCompiling "main.js" from ["src"]...
+[31mCompiling "main.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: No such namespace: js, compiling:(\hello_seymore\components.clj:5:3)
+ at clojure.lang.Compiler.analyze (Compiler.java:6464)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3665)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6646)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6632)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5782)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5217)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3846)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6642)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6632)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.access$100 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:538)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6644)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler.eval (Compiler.java:6707)
+    clojure.lang.Compiler.load (Compiler.java:7130)
+    clojure.lang.RT.loadResourceScript (RT.java:370)
+    clojure.lang.RT.loadResourceScript (RT.java:361)
+    clojure.lang.RT.load (RT.java:440)
+    clojure.lang.RT.load (RT.java:411)
+    clojure.core$load$fn__5066.invoke (core.clj:5641)
+    clojure.core$load.doInvoke (core.clj:5640)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojurescript_build.core$reload_lib.invoke (core.clj:40)
+[0mCompiling "main.js" from ["src"]...
+[31mCompiling "main.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: html in this context, compiling:(\hello_seymore\components.clj:5:3)
+ at clojure.lang.Compiler.analyze (Compiler.java:6464)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3665)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6646)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5782)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5217)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3846)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6642)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6632)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.access$100 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:538)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6644)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler.eval (Compiler.java:6707)
+    clojure.lang.Compiler.load (Compiler.java:7130)
+    clojure.lang.RT.loadResourceScript (RT.java:370)
+    clojure.lang.RT.loadResourceScript (RT.java:361)
+    clojure.lang.RT.load (RT.java:440)
+    clojure.lang.RT.load (RT.java:411)
+    clojure.core$load$fn__5066.invoke (core.clj:5641)
+    clojure.core$load.doInvoke (core.clj:5640)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojurescript_build.core$reload_lib.invoke (core.clj:40)
+    clojurescript_build.core$handle_source_reloading_STAR_.invoke (core.clj:133)
+    clojurescript_build.core$handle_source_reloading.invoke (core.clj:139)
+[0mCompiling "main.js" from ["src"]...
+[31mCompiling "main.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: html in this context, compiling:(\hello_seymore\components.clj:5:3)
+ at clojure.lang.Compiler.analyze (Compiler.java:6464)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3665)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6646)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5782)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5217)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3846)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6642)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6632)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.access$100 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:538)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6644)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler.eval (Compiler.java:6707)
+    clojure.lang.Compiler.load (Compiler.java:7130)
+    clojure.lang.RT.loadResourceScript (RT.java:370)
+    clojure.lang.RT.loadResourceScript (RT.java:361)
+    clojure.lang.RT.load (RT.java:440)
+    clojure.lang.RT.load (RT.java:411)
+    clojure.core$load$fn__5066.invoke (core.clj:5641)
+    clojure.core$load.doInvoke (core.clj:5640)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojurescript_build.core$reload_lib.invoke (core.clj:40)
+    clojurescript_build.core$handle_source_reloading_STAR_.invoke (core.clj:133)
+    clojurescript_build.core$handle_source_reloading.invoke (core.clj:139)
+[0mCompiling "main.js" from ["src"]...
+[31mCompiling "main.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: No such namespace: js, compiling:(\hello_seymore\components.clj:5:3)
+ at clojure.lang.Compiler.analyze (Compiler.java:6464)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3665)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6646)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6632)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5782)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5217)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3846)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6642)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6632)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.access$100 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:538)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6644)
+    clojure.lang.Compiler.analyze (Compiler.java:6445)
+    clojure.lang.Compiler.analyze (Compiler.java:6406)
+    clojure.lang.Compiler.eval (Compiler.java:6707)
+    clojure.lang.Compiler.load (Compiler.java:7130)
+    clojure.lang.RT.loadResourceScript (RT.java:370)
+    clojure.lang.RT.loadResourceScript (RT.java:361)
+    clojure.lang.RT.load (RT.java:440)
+    clojure.lang.RT.load (RT.java:411)
+    clojure.core$load$fn__5066.invoke (core.clj:5641)
+    clojure.core$load.doInvoke (core.clj:5640)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojurescript_build.core$reload_lib.invoke (core.clj:40)
+[0mCompiling "main.js" from ["src"]...
+WARNING: Use of undeclared Var hello-seymore.core/like-seymore at line 8 src\hello_seymore\core.cljs
+[31mCompiling "main.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src\hello_seymore\components.cljs
+ at clojure.core$ex_info.invoke (core.clj:4403)
+    cljs.compiler$compile_file$fn__3100.invoke (compiler.clj:1142)
+    cljs.compiler$compile_file.invoke (compiler.clj:1105)
+    cljs.compiler$compile_root.invoke (compiler.clj:1177)
+    cljs.closure$compile_dir.invoke (closure.clj:378)
+    cljs.closure$eval3516$fn__3517.invoke (closure.clj:418)
+    cljs.closure$eval3452$fn__3453$G__3443__3460.invoke (closure.clj:325)
+    cljs.closure$eval3503$fn__3504.invoke (closure.clj:432)
+    cljs.closure$eval3452$fn__3453$G__3443__3460.invoke (closure.clj:325)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:19)
+    clojure.core$map$fn__4245.invoke (core.clj:2557)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:484)
+    clojure.core$seq.invoke (core.clj:133)
+    clojure.core$apply.invoke (core.clj:624)
+    clojure.core$mapcat.doInvoke (core.clj:2586)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1446)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:153)
+    figwheel_sidecar.auto_builder$default_build_options$fn__17509.invoke (auto_builder.clj:78)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__17542.invoke (auto_builder.clj:179)
+    figwheel_sidecar.auto_builder$warning$fn__17506.invoke (auto_builder.clj:73)
+    clojurescript_build.auto$time_build$fn__17302.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__17308.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17308.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__17308.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__17311.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__17305.invoke (auto.clj:60)
+[0mCompiling "main.js" from ["src"]...
+WARNING: Use of undeclared Var hello-seymore.core/like-seymore at line 7 src\hello_seymore\core.cljs
+[32mSuccessfully compiled "main.js" in 0.186 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\core.js
+notifying browser that file changed:  \hello_seymore\components.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.146 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\core.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.124 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\components.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 1.075 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\components.js
+notifying browser that file changed:  \hello_seymore\core.js
+notifying browser that file changed:  \figwheel\connect.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.183 seconds.[0m
+notifying browser that file changed:  \hello_seymore\components.js
+notifying browser that file changed:  \hello_seymore\core.js
+notifying browser that file changed:  \figwheel\connect.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.152 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\components.js
+notifying browser that file changed:  \hello_seymore\core.js
+notifying browser that file changed:  \figwheel\connect.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.157 seconds.[0m
+notifying browser that file changed:  \hello_seymore\components.js
+notifying browser that file changed:  \hello_seymore\core.js
+notifying browser that file changed:  \figwheel\connect.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.163 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\core.js
+notifying browser that file changed:  \figwheel\connect.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.159 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\components.js
+notifying browser that file changed:  \hello_seymore\core.js
+notifying browser that file changed:  \figwheel\connect.js
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 0.135 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\core.js
+notifying browser that file changed:  \figwheel\connect.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 1.026 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\components.js
+notifying browser that file changed:  \hello_seymore\core.js
+notifying browser that file changed:  \figwheel\connect.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "main.js" from ["src"]...
+[32mSuccessfully compiled "main.js" in 1.034 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\components.js
+notifying browser that file changed:  \hello_seymore\core.js
+notifying browser that file changed:  \figwheel\connect.js
+sending changed CSS file: css/style.css
+sending changed CSS file: css/style.css
+sending changed CSS file: css/style.css
+sending changed CSS file: css/style.css
+sending changed CSS file: css/style.css
+sending changed CSS file: css/style.css
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.152 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/out/goog/deps.js
+notifying browser that file changed:  resources/public/cljs/out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\components.js
+notifying browser that file changed:  \hello_seymore\core.js
+notifying browser that file changed:  \figwheel\connect.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 1.068 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/out/goog/deps.js
+notifying browser that file changed:  resources/public/cljs/out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\components.js
+notifying browser that file changed:  \hello_seymore\core.js
+notifying browser that file changed:  \figwheel\connect.js
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.213 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/out/cljs_deps.js
+notifying browser that file changed:  \hello_seymore\components.js
+notifying browser that file changed:  \hello_seymore\core.js
+notifying browser that file changed:  \figwheel\connect.js
+sending changed CSS file: resources/public/css/style.css
+sending changed CSS file: resources/public/css/style.css

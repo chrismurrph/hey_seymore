@@ -1,0 +1,7 @@
+reset-autobuild
+(defn f-cond[f func-ok func-fail] 
+   (future (try (func-ok @f) (catch Exception e (func-fail e)))))
+@(f-cond (future (throw (Exception. "hi")))) 
+    identity #(println "Failed: " (.getCause %)))
+@(f-cond (future (throw (Exception. "hi")))
+    identity #(println "Failed: " (.getCause %)))
