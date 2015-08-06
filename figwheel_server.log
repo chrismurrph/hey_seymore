@@ -375,3 +375,16 @@ notifying browser that file changed:  \hello_seymore\core.js
 notifying browser that file changed:  \figwheel\connect.js
 sending changed CSS file: resources/public/css/style.css
 sending changed CSS file: resources/public/css/style.css
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.991 seconds.[0m
+notifying browser that file changed:  resources/public/cljs/out/goog/deps.js
+notifying browser that file changed:  resources/public/cljs/out/cljs_deps.js
+notifying browser that file changed:  \hey_seymore\components.js
+notifying browser that file changed:  \figwheel\connect.js
+notifying browser that file changed:  \hey_seymore\core.js
+[0mCompiling "resources/public/cljs/main.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/cljs/main.js" in 0.169 seconds.[0m
+notifying browser that file changed:  \hey_seymore\components.js
+notifying browser that file changed:  \hey_seymore\core.js
+notifying browser that file changed:  \figwheel\connect.js

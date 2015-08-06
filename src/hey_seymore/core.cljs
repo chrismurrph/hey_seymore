@@ -1,5 +1,5 @@
-(ns hello-seymore.core
-  (:require [hello-seymore.components :refer [like-seymore]]))
+(ns hey-seymore.core
+  (:require [hey-seymore.components :refer [like-seymore]]))
 
 (defonce app-state (atom { :likes 0 }))
 
